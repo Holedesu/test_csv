@@ -49,8 +49,8 @@ export default function solution(content){
   // ANSWERS
   console.log(number_of_passengers)
   console.log(number_of_ports)
-  console.log(man_woman_count)
-  console.log(survived_num)
+  console.log(man_woman_count["man_number"] / man_woman_count["woman_number"])
+  console.log((survived_num / number_of_passengers) * 100)
   console.log(names_begin_with_a)
   // END
 }
